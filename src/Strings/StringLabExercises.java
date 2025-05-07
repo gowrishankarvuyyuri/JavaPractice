@@ -1,6 +1,8 @@
 package Strings;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class StringLabExercises {
 
@@ -64,6 +66,39 @@ public class StringLabExercises {
 		System.out.println(name == names);
 		System.out.println(name.equals(names));
 		*/
+		
+		
+		int a[] = {1, 2, 6, 5, 4, 3};
+		/*
+		Arrays.sort(a);
+		System.out.println(Arrays.toString(a));
+		Arrays.sort(a, Comparator.reverseOrder());
+		System.out.println(Arrays.toString(a));
+		
+		int b[] = {1, 6, 5, 4, 3};		
+		
+		boolean isEqual = Arrays.equals(a, b);
+		System.out.println(isEqual);
+		/*for(int i = 0,j = a.length-1; i<j; i++,j--) {
+			if(a[i] < a[j]) {
+				int temp = a[j];
+				a[j] = a[i];
+				a[i] = temp;
+			}
+		}
+		System.out.println(Arrays.toString(Arrays.copyOf(a, 4)));
+		
+		
+		Arrays.sort(a);
+		int index = Arrays.binarySearch(a, 5);
+		System.out.println(index);
+		*/
+		
+		Arrays.setAll(a, i -> i * -1);
+		System.out.println(Arrays.toString(a));
+		
+		String string = "Gowri Shankar";
+		System.out.println(string.replace("Shankar", "shankar"));
  	}
 
 }
