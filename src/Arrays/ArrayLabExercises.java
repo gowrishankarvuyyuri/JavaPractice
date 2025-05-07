@@ -30,7 +30,7 @@ public class ArrayLabExercises {
 		
 		
 		//Finding Prime Numbers
-		int elements[] = {1, 2, 3, 4, 5, 6, 7};
+		/*int elements[] = {1, 2, 3, 4, 5, 6, 7};
 		int prime[] = new int[elements.length];
 		int raise = 0;
 		for (int ele: elements) {
@@ -46,13 +46,39 @@ public class ArrayLabExercises {
 			if(isPrime)
 				prime[raise++] = ele;
 		}
-//		System.out.println(prime); // prints memory reference
-//		System.out.println(Arrays.toString(prime)); // prints with unused locations as well
-//		System.out.println(Arrays.toString(Arrays.copyOf(prime, prime.length))); // creates new array contains upto raise<int> elements
+		System.out.println(prime); // prints memory reference
+		System.out.println(Arrays.toString(prime)); // prints with unused locations as well
 		System.out.println(Arrays.toString(Arrays.copyOf(prime, prime.length)));
-//		for (int p : prime) {
-//			System.out.print(p + " ");
-//		}
+		System.out.println(Arrays.toString(Arrays.copyOf(prime, raise))); // creates new array contains upto raise<int> elements
+		
+		for (int p : prime) {
+			System.out.print(p + " ");
+		}
+		*/
+		
+		
+		//2d array priniting elements
+		int b[][] = { {100, 200, 300},
+				  {300, 400},
+				  {500, 600}
+				   };
+		
+		System.out.println(b); //Gives Menory adress
+		System.out.println(Arrays.toString(b)); //Array of Adresses
+		System.out.println(Arrays.deepToString(b)); //Array of Values
+		
+		// prints extracted row values
+		int row[][] = Arrays.copyOf(b, 2);
+		System.out.println(Arrays.deepToString(row));
+		
+		// extract the coloumns
+		int col[] = new int[b.length];
+		for (int i = 0; i < b.length; i++) {
+			col[i] = b[i][1];
+		}
+		System.out.println(Arrays.toString(col));
+		
+		
 	}
 
 }
