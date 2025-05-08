@@ -7,7 +7,7 @@ public class ArrayLabExercises2 {
 
 	public static void main(String[] args) {
 	
-		//int array[] = {10, 20, 10, 20, 10, 10, 69, 23};
+		Integer array[] = {10, 20, 10, 20, 10, 10, 69, 23};
 		
 		//System.out.println(Arrays.toString(array));
 		
@@ -51,7 +51,8 @@ public class ArrayLabExercises2 {
 					
 				}
 			}
-		}
+		}*/
+		
 		Arrays.sort(array);
 		System.out.println(Arrays.toString(array));
 		

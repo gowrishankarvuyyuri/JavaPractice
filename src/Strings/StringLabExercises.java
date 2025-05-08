@@ -99,6 +99,7 @@ public class StringLabExercises {
 		
 		String string = "Gowri Shankar";
 		System.out.println(string.replace("Shankar", "shankar"));
+		
  	}
 
 }
