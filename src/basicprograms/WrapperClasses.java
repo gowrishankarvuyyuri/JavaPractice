@@ -48,9 +48,10 @@ public class WrapperClasses {
 		System.out.println(wc.innn);
 		System.out.println(Character.isDigit(wc.c));
 		System.out.println(Character.isLetter(wc.c));
+	//.out.println(Character.is);
 		
 		
-		String string = "Gowri 1 Shankar";
+		String string = "Gowri @ Shankar";
 		String result = String.join(" ", "Gowri Shankar","Vuyyurui");
 		System.out.println(result);
 		int flag = 0;

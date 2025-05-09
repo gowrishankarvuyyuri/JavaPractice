@@ -16,6 +16,7 @@ class Final2 extends Final1 {
 }
 public class FinalKeyword {
 
+	
 	public static void main(String[] args) {
 		
 		Final2 fin2 = new Final2();
