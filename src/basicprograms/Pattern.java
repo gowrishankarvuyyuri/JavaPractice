@@ -5,7 +5,7 @@ public class Pattern {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int input = 6;
+		int input = 71;
 		boolean prime = true;
 		
 		for (int i = 2; i < input/2; i++) {
