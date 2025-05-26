@@ -24,9 +24,20 @@ public class Buffer_Builder_Operations {
 		System.out.println(string4.insert(6, "Shankar "));
 		
 		
-		//sb.replace(beg_i, end_i, string)	-)
+		//sb.replace(beg_i, end_i, string)	-)	replaces the desired string by considering index range 
 		StringBuffer string5 = new StringBuffer("Gowri Vuyyuri");
 		System.out.println(string5.replace(6, 13, "Shankar"));
+		
+		
+		//sb.delete(beg_i, end_i)	
+		StringBuffer string6 = new StringBuffer("Gowri Vuyyuri");
+		System.out.println(string6.delete(6, 13));
+		
+		
+		//sb.deleteChatAt(index)
+		StringBuffer string7 = new StringBuffer("Gowri Vuyyuri");
+		System.out.println(string7.deleteCharAt(0));
+		
 	}
 
 }
