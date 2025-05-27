@@ -14,6 +14,7 @@ public class String_Operations {
 		//string.indexOf();		-)		returns the index value of char/String
 		String str2 = "Gowri Shankar Vuyyuri";
 		int index1 = str2.indexOf('a');
+		int index11 = str2.lastIndexOf('a');
 		int index2 = str2.indexOf("hankar");
 		
 		

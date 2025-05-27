@@ -1,7 +1,5 @@
 package ObjectOriented;
 
-import Strings.Check;
-
 class Banks {
 	double roi(int amount) {
 		return amount * 10.5;

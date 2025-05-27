@@ -8,6 +8,7 @@ public class Duplication_Of_Numbers {
 		
 		int a[] = {2,5,6,7,5,2,6,4,1,3};
 		int b[] = new int[a.length];
+		StringBuffer string = new StringBuffer();
 		
 		Arrays.sort(a);
 		System.out.println(Arrays.toString(a));
@@ -15,15 +16,18 @@ public class Duplication_Of_Numbers {
 		int count = 1;
 		
 		for(int i=1; i<a.length; i++) {
-			int index = Arrays.binarySearch(b, 0, count,a[i]);
 			
-			if(index < 0) {
+			if(Arrays.binarySearch(b, 0, count,a[i]) < 0) {
 				b[count] = a[i];
 				++count;
 			}
-			else continue;
+			else {
+				String str = a[i]+"";
+				string.append(" "+str);
+			}
 		}
 		System.out.println(Arrays.toString(Arrays.copyOfRange(b, 0, count)));
+		System.out.println(string);
 	}
 
 }

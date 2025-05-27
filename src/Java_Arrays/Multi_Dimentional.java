@@ -47,21 +47,6 @@ public class Multi_Dimentional {
 			}
 		}
 		System.out.println();
-		
-		
-		//Object Array can store multiple datatype values
-		Object x[] = {1, 1.2, 'A', true, "Gowri Shankar"};
-		
-		//printing normal for loop
-		for(int i = 0; i <= x.length-1; i++) {
-			System.out.print(x[i] + " ");
-		}
-		System.out.println();
-		
-		//for each loop
-		for(Object y:x) {
-			System.out.print(y + " ");
-		}
 	}	
 	
 }
