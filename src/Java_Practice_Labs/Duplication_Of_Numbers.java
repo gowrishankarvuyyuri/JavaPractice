@@ -10,14 +10,14 @@ public class Duplication_Of_Numbers {
 		int b[] = new int[a.length];
 		StringBuffer string = new StringBuffer();
 		
-		Arrays.sort(a);
+		//Arrays.sort(a);
 		System.out.println(Arrays.toString(a));
 		b[0] = a[0];
 		int count = 1;
 		
 		for(int i=1; i<a.length; i++) {
 			
-			if(Arrays.binarySearch(b, 0, count,a[i]) < 0) {
+			if(Arrays.binarySearch(b, 0, count, a[i]) < 0) {
 				b[count] = a[i];
 				++count;
 			}
