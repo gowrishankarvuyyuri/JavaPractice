@@ -1,4 +1,4 @@
-package Object_Oriented;
+package Object_Oriented.Inheritence;
 
 class GrandParent {
 	
@@ -23,7 +23,7 @@ class Childs extends Parents{
 	}
 }
 
-public class MultipleInheritence {
+public class MultiLevel_Inheritence {
 
 	public static void main(String[] args) {
 		

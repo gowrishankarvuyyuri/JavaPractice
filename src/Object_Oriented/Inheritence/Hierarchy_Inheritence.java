@@ -1,4 +1,4 @@
-package Object_Oriented;
+package Object_Oriented.Inheritence;
 
 class Rambabu {
 	
@@ -21,7 +21,7 @@ class Son extends Rambabu{
 		System.out.println(name+" Son Name is " + namess);
 	}
 }
-public class HierarchyInheritence {
+public class Hierarchy_Inheritence {
 
 	static public void main(String[] a) {
 		Son son = new Son();
