@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package Exception_Handling;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ class InsufficientFundsException extends Exception{
 	}
 }
 
-//custum exception used in this class
+//custum exception used in this class	
 class BankAccount {
 	
 	private double balance;
@@ -28,7 +28,7 @@ class BankAccount {
 	}
 }
 
-public class CustomException {
+public class Custom_Exception {
 
 	public static void main(String[] args) {
 		
